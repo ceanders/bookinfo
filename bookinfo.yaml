@@ -140,6 +140,13 @@ spec:
           mountPath: /tmp
         - name: wlp-output
           mountPath: /opt/ibm/wlp/output
+        resources:
+          requests:
+            memory: "1Gi"
+            cpu: "0.1"
+          limits:
+            cpu: "0.5"
+            memory: "2Gi"
       volumes:
       - name: wlp-output
         emptyDir: {}
