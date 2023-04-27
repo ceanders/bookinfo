@@ -7,7 +7,7 @@ spec:
     kind: Deployment
     name: reviews-v2
     apiVersion: apps/v1
-  minReplicas: 2
+  minReplicas: 1
   maxReplicas: 6
   metrics:
     - type: Resource
