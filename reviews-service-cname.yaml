@@ -4,4 +4,4 @@ metadata:
   name: reviews
 spec:
   type: ExternalName
-  externalName: reviews.bookinfo.svc.clusterset.local
+  externalName: reviews-service.bookinfo.svc.clusterset.local
