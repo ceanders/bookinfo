@@ -4,4 +4,4 @@ metadata:
   name: ratings
 spec:
   type: ExternalName
-  externalName: ratings.bookinfo.svc.clusterset.local
+  externalName: ratings-service.bookinfo.svc.clusterset.local
