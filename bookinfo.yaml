@@ -144,7 +144,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: reviews
+  name: reviews-service
   labels:
     app: reviews
     service: reviews
