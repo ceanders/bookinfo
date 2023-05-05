@@ -4,7 +4,7 @@ metadata:
   name: bookinfo-automtls-virtualservice
 spec:
   hosts:
-    - 'bookinfo-mtls.istioapps.lab.cedricanderson.name'
+    - 'bookinfo-automtls.istioapps.lab.cedricanderson.name'
   gateways:
     - bookinfo-automtls-gateway
   http:
