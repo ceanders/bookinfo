@@ -4,9 +4,9 @@ metadata:
   name: bookinfo-tls-virtualservice
 spec:
   hosts:
-    - 'bookinfo.istioapps.lab.cedricanderson.name'
+    - 'bookinfo-mtls.istioapps.lab.cedricanderson.name'
   gateways:
-    - bookinfo-gateway-tls
+    - bookinfo-gateway-mtls
   http:
     - match:
         - uri:
