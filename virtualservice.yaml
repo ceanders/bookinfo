@@ -1,0 +1,26 @@
+kind: VirtualService
+apiVersion: networking.istio.io/v1beta1
+metadata:
+  name: bookinfo-tls-virtualservice
+spec:
+  hosts:
+    - 'bookinfo.istioapps.lab.cedricanderson.name'
+  gateways:
+    - bookinfo-gateway-tls
+  http:
+    - match:
+        - uri:
+            exact: /productpage
+        - uri:
+            prefix: /static
+        - uri:
+            exact: /login
+        - uri:
+            exact: /logout
+        - uri:
+            prefix: /api/v1/products
+      route:
+        - destination:
+            host: productpage
+            port:
+              number: 9080
