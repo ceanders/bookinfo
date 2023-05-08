@@ -4,7 +4,7 @@ metadata:
   name: bookinfo-automtls-gateway-cert
   namespace: istio-system
 spec:
-  secretName: bookinfo-automtls-gateway-cert
+  secretName: istio-ingressgateway-certs
   dnsNames:
   - 'bookinfo-automtls.istioapps.lab.cedricanderson.name'
   issuerRef:
