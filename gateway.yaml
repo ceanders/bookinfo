@@ -12,6 +12,6 @@ spec:
       protocol: HTTPS
     tls:
       mode: SIMPLE
-      credentialName: bookinfo-complete-gateway-cert
+      credentialName: istio-ingressgateway-certs
     hosts:
     - bookinfo-complete.istioapps.lab.cedricanderson.name
