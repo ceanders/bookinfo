@@ -6,7 +6,7 @@ spec:
   hosts:
     - 'bookinfo-complete.istioapps.lab.cedricanderson.name'
   gateways:
-    - bookinfo-istio-gateway
+    - bookinfo-complete-gateway
   http:
     - match:
         - uri:
