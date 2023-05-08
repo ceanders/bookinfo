@@ -12,6 +12,6 @@ spec:
       protocol: HTTPS
     tls:
       mode: SIMPLE
-      credentialName: istio-ingressgateway-certs
+      credentialName: bookinfo-automtls-gateway-cert
     hosts:
     - bookinfo-automtls.istioapps.lab.cedricanderson.name
