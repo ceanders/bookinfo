@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: bookinfo-istio-gateway
+  name: bookinfo-complete-gateway
 spec:
   selector:
     istio: ingressgateway
@@ -12,6 +12,6 @@ spec:
       protocol: HTTPS
     tls:
       mode: SIMPLE
-      credentialName: bookinfo-istio-gateway-cert
+      credentialName: bookinfo-complete-gateway-cert
     hosts:
-    - bookinfo-istio.istioapps.lab.cedricanderson.name
+    - bookinfo-complete.istioapps.lab.cedricanderson.name
